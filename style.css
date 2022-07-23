@@ -1,0 +1,149 @@
+/***CSS Document for In-Class Drill Exercise****/
+/****Nadija Mucic****/
+/****24 July 2022****/
+
+
+/* defaults */
+
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+
+
+/* nav */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3em 1em;
+    background-color: #fc644d;
+}
+
+.nav .logo {
+    color: white;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.nav li {
+    display:inline-block;
+    text-align: center;
+}
+
+.nav li a {
+    padding: 0.1em 0.5em;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+/* header */
+
+.header {
+    background-image: url(./img/header.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh
+}
+
+.header div {
+    position: absolute;
+    transform: translate(35%, 20%);
+}
+
+.box {
+    padding: 3em 3em;
+    width: 40%;
+    max-width: auto;
+    height: 20%;
+    max-height: auto;
+    border: 0.5em solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.box h1 {
+    text-transform: capitalize;
+}
+
+.box p {
+    margin: 1em 0em;
+    font-size: 1em;
+}
+
+.box button {
+    padding: 0.3em 0.6em;
+    border-radius: 0.5em;
+}
+
+
+/* flex */
+
+.flex {
+    display: flex;
+    gap: 1em 1em;
+    margin: 1em 1em;
+}
+
+.flex div {
+    border: 0.3em solid #fc644d;
+}
+
+.flex h1 {
+    background-color: #fc644d;
+}
+
+.flex p {
+    margin: 0.8em 0em;
+    font-size: 1em;
+}
+
+.flex button {
+    margin: 1em 5em;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 0.5em;
+    background-color: white;
+}
+
+
+/* main */
+
+.main {
+    margin: 1em 1em;
+    columns: 2;
+    font-size: 1.5em;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    background-color: black;
+}
+
+.footer div {
+    margin: 1em 1em;
+}
+
+.footer h1 {
+    background-color: #fc644d;
+    text-align: center;
+}
+
+.footer p {
+    padding: 0.8em 0em;
+    background-color: white;
+    text-align: center;
+}
+
+/* end of CSS document */
